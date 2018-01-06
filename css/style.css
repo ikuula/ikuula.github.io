@@ -458,10 +458,10 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header {
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
-	font-size: 54px;
+	font-size: 3em;
 	line-height: 1.2;
 	color: #484848;
-	font-weight: 400
+	font-weight: 900;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,

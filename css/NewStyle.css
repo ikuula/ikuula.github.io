@@ -100,7 +100,11 @@ section p {
 article header h2 {
 	color: red;
 }
-
+h2 {color: #484848;
+}
+.info h2 {
+	font-size: 3em;
+}
 /*
 #foot {
 	background:white;
@@ -173,7 +177,10 @@ article header h2 {
 		margin: 0 0 -3px 0;
 	}
 
-	#foot,
+	#foot{
+		margin: 0 2em;
+	}
+	div.info,
 	div.container{
 		padding: 0 2em;
 	}
