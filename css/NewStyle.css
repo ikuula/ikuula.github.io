@@ -163,7 +163,9 @@ h2 {color: #484848;
 	text-decoration: none;
 	/*	border-bottom: solid 3px;*/
 }
-
+.prevnext li:nth-child(2){
+	text-align: right;
+}
 
 
 /****** MEDIA QUERIES *********/
