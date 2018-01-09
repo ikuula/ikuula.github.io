@@ -396,10 +396,11 @@ header[role="header"] nav #menu-button span:nth-child(1) {
 
 header[role="header"] nav #menu-button span:nth-child(2) {
 	top: 8px;
+	display: none;
 }
 
 header[role="header"] nav #menu-button span:nth-child(3) {
-	top: 16px;
+	top: 8px;
 }
 
 header[role="header"] nav #menu-button.open span:nth-child(1) {
@@ -493,7 +494,7 @@ footer[role="footer"] > h1 a {
 	display: block;
 	max-width: 50px;
 }
-
+footer[role="footer"] section,
 footer[role="footer"] nav {
 	padding: 1em 0;
 }
@@ -517,10 +518,18 @@ footer[role="footer"] nav > ul > li > a {
 	color: #a0a0a0
 }
 
+footer[role="footer"] nav > ul > li > a:first-child {
+	color: #484848
+}
+
+footer[role="footer"] nav > ul > li:hover > a:first-child {
+	color: #484848;
+	
+}
 footer[role="footer"] nav > ul > li:hover a {
 	text-decoration: none;
 	color: #484848;
-	border-bottom: 3px solid
+	border-bottom: 3px solid;
 }
 
 footer[role="footer"] ul > li:first-child,
