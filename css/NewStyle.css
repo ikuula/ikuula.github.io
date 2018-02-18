@@ -197,3 +197,10 @@ h2 {color: #484848;
 	}
 
 }
+
+video {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin-bottom: -4px;
+}
