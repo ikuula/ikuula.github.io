@@ -104,6 +104,12 @@ h2 {color: #484848;
 }
 .info h2 {
 	font-size: 3em;
+	
+}
+.info li {
+	list-style: none;
+	font-size: 1.25em;
+	line-height: 1.7;
 }
 /*
 #foot {
@@ -207,4 +213,8 @@ video {
 
 h3 li {
 	list-style: none;
+}
+
+.profilepic {
+	padding:2em 0;
 }
