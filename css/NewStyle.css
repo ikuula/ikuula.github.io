@@ -101,6 +101,7 @@ article header h2 {
 	color: red;
 }
 h2 {color: #484848;
+	
 }
 .info h2 {
 	font-size: 3em;
@@ -111,6 +112,7 @@ h2 {color: #484848;
 	font-size: 1.25em;
 	line-height: 1.7;
 }
+
 /*
 #foot {
 	background:white;
@@ -119,28 +121,7 @@ h2 {color: #484848;
 	border-top: 2px #484848 solid;
 }*/
 
-#centerguy {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: #f2f2f2;
-}
 
-#bigquote p {
-	font-size: 1.5em;
-
-	max-width: 66%;
-	margin-left: 16.5%;
-	font-weight: 900;
-}
-
-#colorbox {
-	display: flex;
-	align-items: center;
-	justify-content: left;
-	background: #f84c4a;
-
-}
 
 /* bottom padding */
 .pad {
@@ -172,8 +153,15 @@ h2 {color: #484848;
 .prevnext li:nth-child(2){
 	text-align: right;
 }
-
-
+h1 {
+	color:#484848;
+}
+::selection {
+  background: red; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: red; /* Gecko Browsers */
+}
 /****** MEDIA QUERIES *********/
 
 /* xs */
