@@ -123,6 +123,14 @@ h2 {color: #484848;
 
 
 
+#colorbox {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	background: #f84c4a;
+
+}
+
 /* bottom padding */
 .pad {
 	padding: 1.5em;
@@ -153,14 +161,15 @@ h2 {color: #484848;
 .prevnext li:nth-child(2){
 	text-align: right;
 }
+
 h1 {
 	color:#484848;
 }
 ::selection {
-  background: red; /* WebKit/Blink Browsers */
+  background: red; 
 }
 ::-moz-selection {
-  background: red; /* Gecko Browsers */
+  background: red; 
 }
 /****** MEDIA QUERIES *********/
 
