@@ -215,3 +215,10 @@ h3 li {
 .profilepic {
 	padding:2em 0;
 }
+
+.illustrationpad {
+	padding: 1em;
+}
+.illustrationpadtop {
+	padding-top: 2em;
+}
