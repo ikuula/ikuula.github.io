@@ -191,7 +191,10 @@ h2 {
 h1 {
 	color: #484848;
 }
-
+.profilepic {
+	padding: 0;
+	margin-left: -1em;
+}
 ::selection {
 	background: red;
 }
@@ -227,6 +230,13 @@ h1 {
 	body {
 		padding: 0;
 	}
+	.profilepic {
+		padding: 4em 1em 0 1em;
+		margin: 0;
+	}
+	.nopad {
+		margin: 0;
+	}
 
 }
 
@@ -239,10 +249,6 @@ video {
 
 h3 li {
 	list-style: none;
-}
-
-.profilepic {
-	padding: 2em 0;
 }
 
 .illustrationpad {
