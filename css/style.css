@@ -465,10 +465,10 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
 /*===== footer ===*/
 
 footer[role="footer"] {
-	background-color: #FFF;
-	padding-top: 0;
-	padding-bottom: 4em;
-	border-top: 3px #484848 solid;
+	background-color: none;
+	padding: 0 0 8em 0;
+	margin: 0 1em;
+/*	border-top: 3px #484848 solid;*/
 }
 
 footer[role="footer"] > h1 a {
