@@ -203,6 +203,21 @@ h1 {
 	padding: 0;
 	margin-left: -1em;
 }
+
+.LP {
+	margin: 6em 6em;
+	padding: 0;
+
+}
+
+.landingpage {
+	padding: 0;
+	margin: 0 auto;
+	border-radius: 8px;
+
+	box-shadow: 0px 5px 20px 2px #999;
+}
+
 ::selection {
 	background: red;
 }
@@ -247,6 +262,13 @@ h1 {
 	}
 	.profilepic {
 		padding: 0 3em;
+	}
+	.LP {
+	margin: 0 2em;
+	padding: 0;
+}
+	.landingpage {
+		border-radius: 3px;
 	}
 }
 
