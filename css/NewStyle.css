@@ -83,8 +83,9 @@ header {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 4em;
 	line-height: 1.2;
+	font-weight: 900;
 }
 
 .row {
@@ -108,6 +109,10 @@ article header h2 {
 
 h2 {
 	color: #484848;
+	font-weight: 900;
+	line-height: 1.4;
+	margin: 2em 0 2em -.5em;
+	
 
 }
 
@@ -116,9 +121,10 @@ h2 {
 }
 
 .info h2 {
-	font-size: 3em;
+	font-size: 4em;
 	line-height: 1.2;
 	padding: 0;
+	margin: .5em 0;
 
 }
 
@@ -134,9 +140,11 @@ h2 {
 	padding-left: 0em;
 }
 
+/*
 .nopad {
 	margin-left: -1em;
 }
+*/
 
 /*
 #foot {
@@ -237,7 +245,9 @@ h1 {
 	.nopad {
 		margin: 0;
 	}
-
+	.profilepic {
+		padding: 0 3em;
+	}
 }
 
 video {

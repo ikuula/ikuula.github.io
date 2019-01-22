@@ -166,7 +166,7 @@ main {
 	outline: 0;
 
 	font-family: 'Poppins', sans-serif;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 
 }
 
@@ -821,11 +821,11 @@ article[role="pge-title-content"].contact-header p a:hover {
 
 .work-details header h2 {
 	color: #484848;
-	font-size: 2.5em;
-	font-weight: 400;
+	font-size: 5em;
+	font-weight: 900;
 	hyphens: auto;
-	padding: 0 1.5em 0 .5em;
-	margin: 0;
+	padding: 0 1.5em 0 0;
+	margin: 0 0 0 -10px;
 }
 
 .work-details header h3 {
@@ -863,8 +863,9 @@ article[role="pge-title-content"].contact-header p a:hover {
 .work-details p {
 	font-size: 1.5em;
 	color: #484848;
-	line-height: 1.2;
-	font-weight: 400
+	line-height: 1.4;
+	font-weight: 400;
+padding: .5em 1.5em 0 0;
 }
 
 .work-details p strong {
