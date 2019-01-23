@@ -154,13 +154,7 @@ h2 {
 	border-top: 2px #484848 solid;
 }*/
 
-#colorbox {
-	display: flex;
-	align-items: center;
-	justify-content: left;
-	background: #f84c4a;
 
-}
 
 /* bottom padding */
 
@@ -203,7 +197,12 @@ h1 {
 	padding: 0;
 	margin-left: -1em;
 }
-
+.isaac
+{
+	max-width: 60%;
+	padding: 0;
+	margin: 0;
+}
 
 .LP {
 	margin: 6em 6em;
@@ -218,7 +217,14 @@ h1 {
 
 	box-shadow: 0px 5px 20px 2px #999;
 }
+#colorbox {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	background: #f84c4a;
+	margin: 0 1em -1.1em 1em;
 
+}
 ::selection {
 	background: red;
 }
