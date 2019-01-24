@@ -232,12 +232,30 @@ h1 {
 ::-moz-selection {
 	background: red;
 }
-
+#motionreel {
+	margin: 0 -2em 0 -2em;
+	padding:2em 1.75em 0 1.75em;
+	background-color: #f8f8f8;
+}
+/*
+.nav-active:hover {
+	border-left: solid 5px black;
+}
+*/
 /****** MEDIA QUERIES *********/
-
+/* med*/
+@media (max-width: 1199px) {
+	iframe {
+		height: 500px;
+	}
+}
 /* xs */
 
 @media (max-width: 767px) {
+	iframe {
+		height: 250px;
+	}
+	
 	section ul li,
 	section ul li figure.effect-oscar {
 		padding: 0;
