@@ -227,11 +227,11 @@ h1 {
 
 }
 ::selection {
-	background: red;
+	background: #0033ff;
 }
 
 ::-moz-selection {
-	background: red;
+	background: #0033ff;
 }
 #motionreel {
 	margin: 0 -2em 0 -2em;
