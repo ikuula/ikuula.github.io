@@ -14,7 +14,7 @@
 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
 
 html {
 
@@ -165,7 +165,7 @@ main {
 
 	outline: 0;
 
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Martel', serif;
 	letter-spacing: 1px;
 
 }
@@ -221,7 +221,7 @@ q:after {
 
 a {
 
-	text-decoration: underline;
+/*	text-decoration: underline;*/
 
 	outline: none;
 
@@ -257,7 +257,7 @@ button:focus,
 }
 
 @font-face {
-	font-family: 'poppins', sans-serif;
+	font-family: 'Martel', serif;
 }
 
 /*===== Header ===*/
@@ -302,11 +302,11 @@ header[role="header"] nav ul {
 	margin: 0;
 	padding-top: 5em;
 	padding-bottom: 4em;
-	border-bottom: solid 4px #484848
+	border-bottom: solid 3px #484848
 }
 
 header[role="header"] nav ul > li {
-	font-weight: 900;
+	font-weight: 100;
 	font-size: 4em;
 	display: block;
 }
@@ -319,7 +319,7 @@ header[role="header"] nav ul > li > a {
 
 header[role="header"] nav ul > li:hover a,
 header[role="header"] nav ul > li.nav-active a {
-	text-decoration: underline;
+/*	text-decoration: underline;*/
 	color: #484848;
 }
 
@@ -350,7 +350,7 @@ header[role="header"] nav #menu-button span {
 	display: block;
 	position: absolute;
 	z-index: 60;
-	height: 4px;
+	height: 3px;
 
 	width: 100%;
 	background: #484848;
@@ -410,7 +410,7 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {
 
 header h2 strong {
 	font-size: 16px;
-	text-decoration: underline;
+/*	text-decoration: underline;*/
 }
 
 /*===== main ===*/
@@ -442,9 +442,9 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header {
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
 	font-size: 3em;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #484848;
-	font-weight: 900;
+	font-weight: 100;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,
@@ -452,7 +452,7 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span
 	display: block;
 	font-size: 70px;
 	color: #484848;
-	padding-bottom: 15px
+	padding-bottom: 15px;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,
@@ -487,12 +487,12 @@ footer[role="footer"] nav > ul {
 	padding: 0;
 	margin: 0;
 	color: #a0a0a0;
-	font-weight: 400;
+	font-weight: 100;
 }
 
 footer[role="footer"] nav > ul > li {
 	display: block;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin: 0;
 	line-height: 1.7;
 }
@@ -519,7 +519,7 @@ footer[role="footer"] nav > ul > li:hover a {
 footer[role="footer"] ul > li:first-child,
 li:nth-child(2) {
 	color: #484848;
-	font-weight: 900;
+	font-weight: 100;
 }
 
 footer[role="footer"] ul > li:nth-child(2) {
@@ -620,14 +620,14 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption {
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3 {
 	font-size: 21px;
 	line-height: 22px;
-	font-weight: 300
+	font-weight: 100
 }
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5 {
 	text-transform: uppercase;
 	font-size: 13px;
 	line-height: 14px;
-	font-weight: bold
+	font-weight: 100
 }
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,
@@ -667,7 +667,7 @@ section.blog-content figure {
 section.blog-content figure .post-date {
 	text-align: center;
 	color: #FFF;
-	font-weight: 800;
+	font-weight: 100;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -692,7 +692,7 @@ section.blog-content article {
 	font-size: 21px;
 	line-height: 30px;
 	color: #FFF;
-	font-weight: 800;
+	font-weight: 100;
 	color: #343434;
 	padding-left: 42px;
 	padding-top: 33px;
@@ -802,7 +802,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 	text-transform: uppercase;
 	font-size: 21px;
 	color: #FFF;
-	font-weight: 800;
+	font-weight: 100;
 	letter-spacing: 2px;
 	background-color: #e84d49;
 	margin: 41px auto;
@@ -824,7 +824,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .work-details header h2 {
 	color: #484848;
 	font-size: 5em;
-	font-weight: 900;
+	font-weight: 100;
 	hyphens: auto;
 	padding: 0 .5em 0 0;
 	margin: 0 0 0 -10px;
@@ -833,7 +833,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .work-details header h3 {
 	color: #484848;
 	font-size: 2em;
-	font-weight: 400;
+	font-weight: 100;
 	hyphens: auto;
 	padding: 0 1.5em 0 .5em;
 	margin: 0;
@@ -847,7 +847,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 	display: inline-block;
 	color: #0033ff;
 	font-size: 18px;
-	font-weight: 800;
+	font-weight: 100;
 	padding-top: 3px
 }
 
@@ -867,13 +867,13 @@ article[role="pge-title-content"].contact-header p a:hover {
 .work-details p {
 	font-size: 1.5em;
 	color: #484848;
-	line-height: 1.4;
-	font-weight: 400;
+	line-height: 1.2;
+	font-weight: 100;
 	padding: .5em 1.5em 0 0;
 }
 
 .work-details p strong {
-	font-weight: 800
+	font-weight: 100
 }
 
 .work-images {
@@ -894,7 +894,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .comments-pan h3,
 .commentys-form h4 {
 	color: #404040;
-	font-weight: 800;
+	font-weight: 100;
 	padding-bottom: 24px;
 	display: block
 }
@@ -915,141 +915,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .blog-details .enter-content p {
 	font-size: 16px;
 	line-height: 30px;
-	font-weight: 300;
+	font-weight: 100;
 	margin-bottom: 23px
 }
 
-.comments-pan {
-	border-top: 2px solid #dedede;
-	padding-top: 15px
-}
-
-.comments-pan h3 {
-	border-bottom: 2px solid #dedede;
-	padding-bottom: 34px;
-	margin-bottom: 52px
-}
-
-.comments-reply,
-.reply-pan {
-	padding: 0;
-	margin: 0;
-	list-style: none
-}
-
-.comments-reply li {
-	display: block;
-	border-bottom: 2px solid #dedede;
-	overflow: hidden;
-	padding-bottom: 51px;
-	margin-bottom: 39px
-}
-
-.comments-reply li figure {
-	float: left;
-	width: 70px;
-	background-color: #000
-}
-
-.comments-reply li section {
-	float: left;
-	padding-left: 30px;
-	font-size: 16px;
-	line-height: 30px;
-	font-weight: 300;
-	color: #343434;
-	width: 92%;
-}
-
-.comments-reply li section .date-pan {
-	font-size: 14px;
-	line-height: 18px;
-	padding-bottom: 25px
-}
-
-.comments-reply li section h4 {
-	font-weight: 800;
-	color: #404040;
-	font-size: 21px;
-	margin-bottom: 6px;
-	margin-top: 0
-}
-
-.comments-reply li section h4 a {
-	font-size: 16px;
-	color: #0033ff;
-	font-weight: 400;
-	display: inline-block;
-	padding-left: 20px
-}
-
-.reply-pan {
-	clear: both;
-	display: block;
-	margin-left: 100px;
-	padding-top: 39px
-}
-
-.reply-pan li {
-	border-bottom: none;
-	border-top: 2px solid #dedede;
-	padding-bottom: 0;
-	margin-bottom: 0;
-	padding-top: 38px;
-}
-
-.commentys-form h4 {
-	font-size: 24px
-}
-
-.commentys-form form {
-	margin-top: 30px
-}
-
-.commentys-form input[type="text"],
-.commentys-form input[type="email"],
-.commentys-form input[type="url"],
-.commentys-form textarea {
-	font-size: 21px;
-	line-height: 22px;
-	color: #404040;
-	padding-bottom: 26px;
-	border-bottom: 2px solid #bbbbbb;
-	width: 100%;
-	display: block;
-	border-left: none;
-	border-right: none;
-	border-top: none;
-	background-color: transparent;
-	outline: none
-}
-
-.commentys-form textarea {
-	margin-top: 57px
-}
-
-.commentys-form input[type="text"]:focus,
-.commentys-form input[type="email"]:focus,
-.commentys-form input[type="url"]:focus,
-.commentys-form textarea:focus {
-	border-bottom-color: #000
-}
-
-.commentys-form input[type="button"] {
-	padding: 0 36px;
-	text-transform: uppercase;
-	display: inline-block;
-	font-size: 21px;
-	line-height: 60px;
-	color: #FFF;
-	font-weight: bold;
-	text-align: center;
-	border: none;
-	outline: none;
-	background-color: #0033ff;
-	margin-top: 50px
-}
-
-.commentys-form input[type="button"]:hover {
-	background-color: #ff5c5c
-}

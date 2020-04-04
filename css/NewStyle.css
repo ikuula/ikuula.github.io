@@ -60,7 +60,7 @@ body {
 	/*		background: #dedede;*/
 	background: white;
 	padding: 2em 7em;
-}
+  font-family: 'Martel', serif;}
 
 .effect-oscar {
 	margin: 0;
@@ -85,9 +85,11 @@ header {
 h1 {
 	font-size: 6.5em;
 	line-height: 1.2;
-	font-weight: 900;
+	font-weight: 100;
 }
-
+h3 {
+    font-weight: 100;
+}
 .row {
 	padding: 0;
 	margin: 0;
@@ -109,8 +111,8 @@ article header h2 {
 
 h2 {
 	color: #484848;
-	font-weight: 900;
-	line-height: 1.4;
+	font-weight: 100;
+	line-height: 1.2;
 	margin: 2em 0 2em -.5em;
 	
 
@@ -123,7 +125,7 @@ h2 {
 
 .info h2 {
 	font-size: 4em;
-	line-height: 1.2;
+	line-height: 1.1;
 	padding: 0;
 	margin: .5em 0;
 
@@ -131,13 +133,13 @@ h2 {
 
 .info h3 {
 	padding: 1em 0;
-	line-height: 1.2;
+	line-height: 1.1;
 }
 
 .info li {
 	list-style: none;
 	font-size: 1.25em;
-	line-height: 1.7;
+	line-height: 1.5;
 	padding-left: 0em;
 }
 
@@ -171,14 +173,14 @@ h2 {
 	margin: 2em 0 0 0;
 	font-size: 1.5em;
 	color: #484848;
-	line-height: 1.7;
+	line-height: 1.1;
 
 }
 
 .prevnext a {
 	color: #a0a0a0;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 100;
 }
 
 .prevnext a:hover {
