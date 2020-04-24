@@ -110,7 +110,7 @@ article header h2 {
 }
 
 h2 {
-	color: #484848;
+	color: #1D261F;
 	font-weight: 100;
 	line-height: 1.2;
 	margin: 2em 0 2em -.5em;
@@ -154,7 +154,7 @@ h2 {
 	background:white;
 	margin: 0 -4em;
 	padding: 0;
-	border-top: 2px #484848 solid;
+	border-top: 2px #1D261F solid;
 }*/
 
 
@@ -172,7 +172,7 @@ h2 {
 	justify-content: space-between;
 	margin: 2em 0 0 0;
 	font-size: 1.5em;
-	color: #484848;
+	color: #1D261F;
 	line-height: 1.1;
 
 }
@@ -184,7 +184,7 @@ h2 {
 }
 
 .prevnext a:hover {
-	color: #484848;
+	color: #1D261F;
 	text-decoration: none;
 	/*	border-bottom: solid 3px;*/
 }
@@ -194,7 +194,7 @@ h2 {
 }
 
 h1 {
-	color: #484848;
+	color: #1D261F;
 }
 .profilepic {
 	padding: 0;
@@ -240,6 +240,9 @@ h1 {
 	padding:2em 1.75em 0 1.75em;
 	background-color: #f8f8f8;
 }
+section a img,
+h1 img {height: 40px}
+
 /*
 .nav-active:hover {
 	border-left: solid 5px black;

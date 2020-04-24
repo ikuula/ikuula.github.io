@@ -1188,7 +1188,7 @@ th {
 	content: "\26fa"
 }
 
-.glyphicon-#484848board:before {
+.glyphicon-#1D261Fboard:before {
 	content: "\e218"
 }
 
@@ -1419,7 +1419,7 @@ a {
 
 a:focus,
 a:hover {
-	color: #484848;
+	color: #1D261F;
 /*	text-decoration: underline*/
 }
 
@@ -4303,7 +4303,7 @@ tbody.collapse.in {
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
-	color: #484848;
+	color: #1D261F;
 	text-decoration: none;
 	background-color: #f5f5f5
 }
@@ -4320,7 +4320,7 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:focus,
 .dropdown-menu > .disabled > a:hover {
-	color: #484848
+	color: #1D261F
 }
 
 .dropdown-menu > .disabled > a:focus,
@@ -4816,12 +4816,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav > li.disabled > a {
-	color: #484848
+	color: #1D261F
 }
 
 .nav > li.disabled > a:focus,
 .nav > li.disabled > a:hover {
-	color: #484848;
+	color: #1D261F;
 	text-decoration: none;
 	cursor: not-allowed;
 	background-color: transparent

@@ -245,13 +245,13 @@ button:focus,
 
 
 ::-moz-selection {
-	background-color: #484848;
+	background-color: #1D261F;
 	color: #fff;
 	text-shadow: none;
 }
 
 ::selection {
-	background-color: #484848;
+	background-color: #1D261F;
 	color: #fff;
 	text-shadow: none;
 }
@@ -302,7 +302,7 @@ header[role="header"] nav ul {
 	margin: 0;
 	padding-top: 5em;
 	padding-bottom: 4em;
-	border-bottom: solid 3px #484848
+	border-bottom: solid 3px #1D261F
 }
 
 header[role="header"] nav ul > li {
@@ -320,11 +320,11 @@ header[role="header"] nav ul > li > a {
 header[role="header"] nav ul > li:hover a,
 header[role="header"] nav ul > li.nav-active a {
 /*	text-decoration: underline;*/
-	color: #484848;
+	color: #1D261F;
 }
 
 .navy ul li:hover {
-	color: #484848;
+	color: #1D261F;
 }
 
 header[role="header"] nav #menu-button {
@@ -353,7 +353,7 @@ header[role="header"] nav #menu-button span {
 	height: 3px;
 
 	width: 100%;
-	background: #484848;
+	background: #1D261F;
 	opacity: 1;
 	left: 0;
 
@@ -369,7 +369,7 @@ header[role="header"] nav #menu-button span {
 }
 
 header[role="header"] nav #menu-button span {
-	background: #484848;
+	background: #1D261F;
 }
 
 header[role="header"] nav #menu-button span:nth-child(1) {
@@ -420,7 +420,7 @@ h2.quotes {
 	font-size: 54px;
 	margin: 1em;
 	padding: .5em;
-	background: #484848;
+	background: #1D261F;
 }
 
 main[role="main-home-wrapper"],
@@ -443,7 +443,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
 	font-size: 3em;
 	line-height: 1.1;
-	color: #484848;
+	color: #1D261F;
 	font-weight: 100;
 }
 
@@ -451,7 +451,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span {
 	display: block;
 	font-size: 70px;
-	color: #484848;
+	color: #1D261F;
 	padding-bottom: 15px;
 }
 
@@ -468,7 +468,7 @@ footer[role="footer"] {
 	background-color: none;
 	padding: 0 0 8em 0;
 	margin: 0 1em;
-	/*	border-top: 3px #484848 solid;*/
+	/*	border-top: 3px #1D261F solid;*/
 }
 
 footer[role="footer"] > h1 a {
@@ -486,7 +486,7 @@ footer[role="footer"] nav > ul {
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	color: #a0a0a0;
+	color: #1D261F;
 	font-weight: 100;
 }
 
@@ -502,23 +502,23 @@ footer[role="footer"] nav > ul > li > a {
 }
 
 footer[role="footer"] nav > ul > li > a:first-child {
-	color: #484848
+	color: #1D261F
 }
 
 footer[role="footer"] nav > ul > li:hover > a:first-child {
-	color: #484848;
+	color: #1D261F;
 
 }
 
 footer[role="footer"] nav > ul > li:hover a {
 	text-decoration: none;
-	color: #484848;
+	color: #1D261F;
 	border-bottom: 3px solid;
 }
 
 footer[role="footer"] ul > li:first-child,
 li:nth-child(2) {
-	color: #484848;
+	color: #1D261F;
 	font-weight: 100;
 }
 
@@ -715,7 +715,7 @@ article[role="pge-title-content"].contact-header p a {
 }
 
 article[role="pge-title-content"].contact-header p a:hover {
-	color: #484848;
+	color: #1D261F;
 	text-decoration: none
 }
 
@@ -822,7 +822,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 }
 
 .work-details header h2 {
-	color: #484848;
+	color: #1D261F;
 	font-size: 5em;
 	font-weight: 100;
 	hyphens: auto;
@@ -831,7 +831,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 }
 
 .work-details header h3 {
-	color: #484848;
+	color: #1D261F;
 	font-size: 2em;
 	font-weight: 100;
 	hyphens: auto;
@@ -866,7 +866,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 
 .work-details p {
 	font-size: 1.5em;
-	color: #484848;
+	color: #1D261F;
 	line-height: 1.2;
 	font-weight: 100;
 	padding: .5em 1.5em 0 0;
