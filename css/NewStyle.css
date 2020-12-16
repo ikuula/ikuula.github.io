@@ -323,4 +323,23 @@ h3 li {
 .illustrationpadtop {
 	padding-top: 2em;
 }
+/******* for YouTube embedding *******/
 
+.embeded-video {
+    position: relative
+}
+
+.embeded-video .ratio-img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.embeded-video IFRAME {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
