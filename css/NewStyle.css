@@ -323,6 +323,22 @@ h3 li {
 .illustrationpadtop {
 	padding-top: 2em;
 }
+/******* for Scope tags *******/
+.scopetag {
+  background-color: white;
+  border-width: 1px;
+  color: #1D261F;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: auto;
+  border-radius: 25px;
+    font-size: 1em;
+    border-style: solid;
+}
+
 /******* for YouTube embedding *******/
 
 .embeded-video {
