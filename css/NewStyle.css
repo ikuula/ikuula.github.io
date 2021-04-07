@@ -134,6 +134,7 @@ h2 {
 .info h3 {
 	padding: 1em 0;
 	line-height: 1.3;
+    font-size: 2em;
 }
 
 .info li {
@@ -164,6 +165,7 @@ h2 {
 .sociallinks {
     font-size: 4em;
     color: #1D261F;
+    padding: 1em 0;
     
 }
 .sociallinks a {
