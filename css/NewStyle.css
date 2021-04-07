@@ -125,7 +125,7 @@ h2 {
 
 .info h2 {
 	font-size: 4em;
-	line-height: 1.3;
+	line-height: 1.4;
 	padding: 0;
 	margin: .5em 0;
 
@@ -164,6 +164,7 @@ h2 {
 }
 .sociallinks {
     font-size: 4em;
+    line-height: 1.4;
     color: #1D261F;
     padding: 1em 0;
     
@@ -171,8 +172,43 @@ h2 {
 .sociallinks a {
     text-decoration-line: underline;
     color: #1D261F;
+    font-weight: 600;
+}
+.hoverimage {
+    position: relative;
+    display: inline;
+}
+.hoverimage a {
+    color: #1D261F;
+    text-decoration-line: underline;
+    font-weight: 600;
+}
+.hoverimage1, .hoverimage2 {
+    display: none;
+    
+}
+.hoverimage:hover .hoverimage1 {
+   display: inline;
+    position: absolute;
+    top: -90%;
+    left: 5%;
+    max-height: 200px;
+    z-index: 9999;
+    border-radius: 5px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+.hoverimage:hover .hoverimage2 {
+   display: inline;
+    position: absolute;
+    top: -90%;
+    left: 30%;
+    max-height: 200px;
+    z-index: 9999;
+    border-radius: 5px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*
 .nopad {
 	margin-left: -1em;
