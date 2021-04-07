@@ -183,12 +183,14 @@ h2 {
     text-decoration-line: underline;
     font-weight: 600;
 }
-.hoverimage1, .hoverimage2 {
+.hoverimage1,
+.hoverimage2 {
     display: none;
-    
+    visibility: hidden;  
 }
 .hoverimage:hover .hoverimage1 {
    display: inline;
+    visibility:visible;
     position: absolute;
     top: -90%;
     left: 5%;
@@ -198,9 +200,9 @@ h2 {
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .hoverimage:hover .hoverimage2 {
    display: inline;
+    visibility:visible;
     position: absolute;
     top: -90%;
     left: 30%;
@@ -209,20 +211,6 @@ h2 {
     border-radius: 5px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/*
-.nopad {
-	margin-left: -1em;
-}
-*/
-
-/*
-#foot {
-	background:white;
-	margin: 0 -4em;
-	padding: 0;
-	border-top: 2px #1D261F solid;
-}*/
-
 
 
 /* bottom padding */
