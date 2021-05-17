@@ -52,7 +52,7 @@
     padding-right: 15px;
     padding-left: 15px;
 */
-    padding: 1em;
+    padding: .7em;
 
 }
 
@@ -408,14 +408,28 @@ h3 li {
     background-color: white;
     border: 1px #1D261F solid;
     color: #1D261F;
-    padding: 6px 12px;
+    padding: 6px 12px 4px 12px;
     text-align: center;
+    line-height: 1.2;
     text-decoration: none;
     display: inline-block;
+    font-weight: bold;
     margin: 4px 2px;
     cursor: auto;
     border-radius: 25px;
-    font-size: 1em;
+    font-size: 1.8em;
+}
+/******** for Material Icons *********/
+.material-icons footicon{
+ margin: 20px 0px 20px -4px;
+    padding: 1em 0em;
+    color: #1D261F;
+    font-size: 3em;
+}
+.inline-icon {
+  margin: 0px 0px -20px 0px;
+    
+    
 }
 
 /******* for YouTube embedding *******/
