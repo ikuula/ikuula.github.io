@@ -60,7 +60,7 @@ body {
     /*		background: #dedede;*/
     background: white;
     padding: 2em 7em;
-    font-family: 'Martel', serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .effect-oscar {
@@ -149,8 +149,8 @@ h2 {
 
 .client-underlined {
     border-bottom: 1px #1D261F solid;
-    padding: 2em 0 1.50em 0;
-    font-size: .7em;
+    padding: 1.50em 0 1.50em 0;
+    font-size: 1em;
     font-weight: bold;
     letter-spacing: 0.05em;
     word-spacing: 1px;
@@ -172,7 +172,7 @@ h2 {
 .sociallinks a {
     text-decoration-line: underline;
     color: #1D261F;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /********About hover images********/
@@ -185,39 +185,63 @@ h2 {
 .hoverimage a {
     color: #1D261F;
     text-decoration-line: underline;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .hoverimage1,
-.hoverimage2 {
+.hoverimage2,
+.hovershape1,
+.hovershape2,
+.hovershape3
+ {
     display: none;
     visibility: hidden;
 }
+
 
 .hoverimage:hover .hoverimage1 {
     display: inline;
     visibility: visible;
     position: absolute;
-    top: -90%;
+    top: -120%;
     left: 5%;
     max-height: 200px;
     z-index: 9999;
     border-radius: 5px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .hoverimage:hover .hoverimage2 {
     display: inline;
     visibility: visible;
     position: absolute;
-    top: -90%;
+    top: -120%;
     left: 30%;
     max-height: 200px;
     z-index: 9999;
     border-radius: 5px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
+}
+.hoverimage:hover .hovershape1 {
+    display: inline;
+    visibility: visible;
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    max-height: 75px;
+    z-index: -1;
+}
+.hoverimage:hover .hovershape2 {
+    display: inline;
+    visibility: visible;
+    position: absolute;
+    top: -10%;
+    left: 25%;
+    max-height: 75px;
+    z-index: -1;
+}
 
 /* bottom padding */
 
@@ -408,7 +432,7 @@ h3 li {
     background-color: white;
     border: 1px #1D261F solid;
     color: #1D261F;
-    padding: 6px 12px 4px 12px;
+    padding: 4px 12px 4px 12px;
     text-align: center;
     line-height: 1.2;
     text-decoration: none;
@@ -419,17 +443,19 @@ h3 li {
     border-radius: 25px;
     font-size: 1.8em;
 }
+
 /******** for Material Icons *********/
-.material-icons footicon{
- margin: 20px 0px 20px -4px;
+.material-icons footicon {
+    margin: 20px 0px 20px -4px;
     padding: 1em 0em;
     color: #1D261F;
     font-size: 3em;
 }
+
 .inline-icon {
-  margin: 0px 0px -20px 0px;
-    
-    
+    margin: 0px 0px -20px 0px;
+
+
 }
 
 /******* for YouTube embedding *******/

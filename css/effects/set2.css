@@ -185,7 +185,7 @@ figure.effect-oscar {
 */
 
 /*	background-color:#1D261F;*/
-	background-color: rgba(195,195,195,.9);
+	background-color: rgba(255,255,255,.5);
 
 }
 
@@ -198,7 +198,7 @@ figure.effect-oscar img {
 	-webkit-transition: opacity 0.5s;
 
 
-	transition: opacity .5s ease-in-out;
+	transition: opacity .5s cubic-bezier(0, 0.01, 0, 1.5);
 
 }
 
@@ -210,9 +210,10 @@ figure.effect-oscar figcaption {
 
 	background-color: rgba(58,52,42,0);
 
+
 	-webkit-transition: background-color 0.5s;
 
-	transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s cubic-bezier(0, 0.01, 0, 1.5);
 
 }
 
@@ -246,23 +247,36 @@ figure.effect-oscar figcaption::before {
 figure.effect-oscar h2 {
 
 font-weight:400;
-
+position: relative;
 	margin: 0;
 
-	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
 
-	transition: transform 0.5s ease-in-out;
+	transition: transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
 
 	-webkit-transform: translate3d(0,100%,0);
 
 	transform: translate3d(0,100%,0);
 	opacity: 0;
-	color: white;
+	color: #1D261F;
 }
 
 figure.effect-oscar h2 span{
 
-	font-weight:800;
+	font-weight:400;
+    position: absolute;
+    right: 0px;
+    color: #1D261F;
+    
+    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
+
+	transition: transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
+    transition-delay: 100ms;
+
+	-webkit-transform: translate3d(0,150%,0) rotate(-90deg);
+
+	transform: translate3d(0,150%,0) rotate(-90deg);
+/*    transform:rotate(-90deg);*/
 
 }
 
@@ -276,7 +290,7 @@ figure.effect-oscar p {
 
 	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
 
-	transition: opacity 0.5s ease-in-out, transform 0.5s ease;
+	transition: opacity 0.5s cubic-bezier(0, 0.01, 0, 1.5), transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
 
 	-webkit-transform: scale(1);
 
@@ -292,6 +306,13 @@ figure.effect-oscar:hover h2 {
 
 	transform: translate3d(0,0,0);
 	opacity: 1;
+
+}
+figure.effect-oscar:hover h2 span {
+
+	-webkit-transform: translate3d(0,0,0);
+
+	transform: translate3d(0,0,0);
 
 }
 
@@ -314,7 +335,12 @@ color: white;
 figure.effect-oscar:hover figcaption {
 
 	background-color: rgba(58,52,42,0);
-	
+
+    outline: 2px solid #1D261F;
+    outline-offset: -2px;
+
+    
+    
 
 }
 
@@ -322,7 +348,8 @@ figure.effect-oscar:hover figcaption {
 
 figure.effect-oscar:hover img {
 
-	opacity: .1;
+	opacity: .25;
+
 
 }
 
