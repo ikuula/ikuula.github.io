@@ -243,6 +243,74 @@ h2 {
     z-index: -1;
 }
 
+/********************* Nav arrows *******************/
+
+.navy a {
+    position: relative;
+
+}
+.arrow1 {
+    position: relative;
+    right: 1em;
+    font-size: .8em;
+    opacity: 0;
+     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
+
+	transition: transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
+    transition-delay: 100ms;
+
+	-webkit-transform: translate3d(0,150%,0) rotate(-90deg);
+
+	transform: translate3d(0,150%,0) rotate(-90deg);
+}
+.arrow2 {
+    position: relative;
+    right: 1em;
+    font-size: .8em;
+    opacity: 0;
+     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
+
+	transition: transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
+    transition-delay: 100ms;
+
+	-webkit-transform: translate3d(-50%,0,0) ;
+
+	transform: translate3d(-50%,0,0) ;
+}
+.arrow3 {
+    position: relative;
+    right: 1em;
+    font-size: .8em;
+    opacity: 0;
+     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
+
+	transition: transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
+    transition-delay: 100ms;
+
+	-webkit-transform: translate3d(0,-150%,0) rotate(90deg);
+
+	transform: translate3d(0,-150%,0) rotate(90deg);
+}
+
+.navy a:hover .arrow1 {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+
+	transform: translate3d(0,0,0);
+}
+.navy a:hover .arrow2 {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+
+	transform: translate3d(0,0,0);
+}
+.navy a:hover .arrow3 {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+
+	transform: translate3d(0,0,0);
+}
+
 /* bottom padding */
 
 .pad {

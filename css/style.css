@@ -285,7 +285,7 @@ header[role="header"] nav {
 
 	transition-duration: 0.6s;
 	transition-property: all;
-	transition-timing-function: ease;
+	transition-timing-function: cubic-bezier(0, 0, 0, 1.3);
 }
 
 header[role="header"] nav ul {
@@ -303,7 +303,7 @@ header[role="header"] nav ul {
 	margin: 0;
 	padding-top: 5em;
 	padding-bottom: 4em;
-	border-bottom: solid 3px #1D261F
+	border-bottom: solid 3px #1D261F;
 }
 
 header[role="header"] nav ul > li {
@@ -340,10 +340,10 @@ header[role="header"] nav #menu-button {
 	-moz-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
-	-webkit-transition: .5s ease-in-out;
-	-moz-transition: .5s ease-in-out;
-	-o-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
+	-webkit-transition: .5s cubic-bezier(0, 0, 0, 1.3);
+	-moz-transition: .5s cubic-bezier(0, 0, 0, 1.3);
+	-o-transition: .5s cubic-bezier(0, 0, 0, 1.3);
+	transition: .5s cubic-bezier(0, 0, 0, 1.3);
 	cursor: pointer;
 }
 
@@ -358,15 +358,15 @@ header[role="header"] nav #menu-button span {
 	opacity: 1;
 	left: 0;
 
-	-webkit-transform: rotate(0deg);
-	-moz-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
 
-	transform: rotate(0deg);
-	-webkit-transition: .25s ease-in-out;
-	-moz-transition: .25s ease-in-out;
-	-o-transition: .25s ease-in-out;
-	transition: .25s ease-in-out;
+	transform: rotate(360deg);
+	-webkit-transition: .5s cubic-bezier(0, 0, 0, 1.3);
+	-moz-transition: .5s cubic-bezier(0, 0, 0, 1.3);
+	-o-transition: .5s cubic-bezier(0, 0, 0, 1.3);
+	transition: .5s cubic-bezier(0, 0, 0, 1.3);
 }
 
 header[role="header"] nav #menu-button span {
