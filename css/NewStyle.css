@@ -175,6 +175,7 @@ h2 {
     font-weight: 400;
 }
 
+
 /********About hover images********/
 
 .hoverimage {
@@ -206,7 +207,7 @@ h2 {
     left: 5%;
     max-height: 200px;
     z-index: 9999;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -219,7 +220,7 @@ h2 {
     left: 30%;
     max-height: 200px;
     z-index: 9999;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
