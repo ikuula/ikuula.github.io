@@ -518,6 +518,10 @@ h3 li {
 .illustrationpadtop {
     padding-top: 2em;
 }
+.bonuscontent p {
+    padding: .5em 0 .5em 0;
+    font-size: 1.5em;
+}
 
 /******* for Scope tags *******/
 .scopetag {
