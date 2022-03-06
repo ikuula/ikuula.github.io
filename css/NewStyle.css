@@ -113,7 +113,7 @@ article header h2 {
 }
 
 h2 {
-    color: #1D261F;
+    color: #000000;
     font-weight: 100;
     line-height: 1.2;
     margin: 2em 0 2em -.5em;
@@ -148,7 +148,7 @@ h2 {
 }
 
 .client-underlined {
-    border-bottom: 1px #1D261F solid;
+    border-bottom: 1px #000000 solid;
     padding: 1.50em 0 1.50em 0;
     font-size: 1em;
     font-weight: bold;
@@ -164,14 +164,14 @@ h2 {
 .sociallinks {
     font-size: 4em;
     line-height: 1.4;
-    color: #1D261F;
+    color: #000000;
     padding: 1em 0;
 
 }
 
 .sociallinks a {
     text-decoration-line: underline;
-    color: #1D261F;
+    color: #000000;
     font-weight: 400;
 }
 
@@ -184,7 +184,7 @@ h2 {
 }
 
 .hoverimage a {
-    color: #1D261F;
+    color: #000000;
     text-decoration-line: underline;
     font-weight: 400;
 }
@@ -348,7 +348,7 @@ h2 {
     justify-content: space-between;
     margin: 2em 0 0 0;
     font-size: 1.5em;
-    color: #1D261F;
+    color: #000000;
     line-height: 1.1;
 
 }
@@ -360,7 +360,7 @@ h2 {
 }
 
 .prevnext a:hover {
-    color: #1D261F;
+    color: #000000;
     text-decoration: none;
     /*	border-bottom: solid 3px;*/
 }
@@ -370,7 +370,7 @@ h2 {
 }
 
 h1 {
-    color: #1D261F;
+    color: #000000;
 }
 
 .profilepic {
@@ -526,8 +526,8 @@ h3 li {
 /******* for Scope tags *******/
 .scopetag {
     background-color: white;
-    border: 1px #1D261F solid;
-    color: #1D261F;
+    border: 1px #000000 solid;
+    color: #000000;
     padding: 4px 12px 4px 12px;
     text-align: center;
     line-height: 1.2;
@@ -544,7 +544,7 @@ h3 li {
 .material-icons footicon {
     margin: 20px 0px 20px -4px;
     padding: 1em 0em;
-    color: #1D261F;
+    color: #000000;
     font-size: 3em;
 }
 

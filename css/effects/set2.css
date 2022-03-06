@@ -184,7 +184,7 @@ figure.effect-oscar {
 	background: linear-gradient(90deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);
 */
 
-/*	background-color:#1D261F;*/
+/*	background-color:#000000;*/
 	background-color: rgba(255,255,255,.5);
 
 }
@@ -258,7 +258,7 @@ position: relative;
 
 	transform: translate3d(0,100%,0);
 	opacity: 0;
-	color: #1D261F;
+	color: #000000;
 }
 
 figure.effect-oscar h2 span{
@@ -266,7 +266,7 @@ figure.effect-oscar h2 span{
 	font-weight:400;
     position: absolute;
     right: 0px;
-    color: #1D261F;
+    color: #000000;
     
     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0, 0.01, 0, 1.5);
 
@@ -336,7 +336,7 @@ figure.effect-oscar:hover figcaption {
 
 	background-color: rgba(58,52,42,0);
 
-    outline: 2px solid #1D261F;
+    outline: 2px solid #000000;
     outline-offset: -2px;
 
     
