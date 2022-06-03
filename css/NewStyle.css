@@ -523,6 +523,11 @@ h3 li {
     font-size: 1.5em;
 }
 
+#bonusmenu {
+    font-size: 1.5em;
+    padding-top: .8em;
+}
+
 /******* for Scope tags *******/
 .scopetag {
     background-color: white;
