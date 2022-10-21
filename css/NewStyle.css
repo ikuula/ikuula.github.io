@@ -429,6 +429,11 @@ section a img,
 h1 img {
     height: 40px
 }
+.videobox {
+    padding: 16em;
+    margin: 0 0 .5em 0;
+}
+
 
 /*
 .nav-active:hover {
