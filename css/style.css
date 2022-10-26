@@ -166,7 +166,7 @@ main {
 	outline: 0;
 
 	font-family: 'Space Grotesk', sans-serif;
-	letter-spacing: 0.01em;
+	letter-spacing: 0;
     word-spacing: 1px;
 
 }
@@ -307,7 +307,7 @@ header[role="header"] nav ul {
 }
 
 header[role="header"] nav ul > li {
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 4em;
 	display: block;
 }
@@ -446,7 +446,7 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
 	font-size: 3em;
 	line-height: 1.1;
 	color: #000000;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,
@@ -489,7 +489,7 @@ footer[role="footer"] nav > ul {
 	padding: 0;
 	margin: 0;
 	color: #000000;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 footer[role="footer"] nav > ul > li {
@@ -521,7 +521,7 @@ footer[role="footer"] nav > ul > li:hover a {
 footer[role="footer"] ul > li:first-child,
 li:nth-child(2) {
 	color: #000000;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 footer[role="footer"] ul > li:nth-child(2) {
@@ -622,14 +622,14 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption {
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3 {
 	font-size: 21px;
 	line-height: 22px;
-	font-weight: 100
+	font-weight: 400
 }
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5 {
 	text-transform: uppercase;
 	font-size: 13px;
 	line-height: 14px;
-	font-weight: 100
+	font-weight: 400
 }
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,
@@ -669,7 +669,7 @@ section.blog-content figure {
 section.blog-content figure .post-date {
 	text-align: center;
 	color: #FFF;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -694,7 +694,7 @@ section.blog-content article {
 	font-size: 21px;
 	line-height: 30px;
 	color: #FFF;
-	font-weight: 100;
+	font-weight: 400;
 	color: #343434;
 	padding-left: 42px;
 	padding-top: 33px;
@@ -804,7 +804,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 	text-transform: uppercase;
 	font-size: 21px;
 	color: #FFF;
-	font-weight: 100;
+	font-weight: 400;
 	letter-spacing: 2px;
 	background-color: #e84d49;
 	margin: 41px auto;
@@ -826,7 +826,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .work-details header h2 {
 	color: #000000;
 	font-size: 5em;
-	font-weight: 100;
+	font-weight: 400;
 	hyphens: auto;
 	padding: 0 .5em 0 0;
 	margin: 0 0 0 -10px;
@@ -835,7 +835,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .work-details header h3 {
 	color: #000000;
 	font-size: 2em;
-	font-weight: 100;
+	font-weight: 400;
 	hyphens: auto;
 	padding: 0 1.5em 0 .5em;
 	margin: 0;
@@ -849,7 +849,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 	display: inline-block;
 	color: #0033ff;
 	font-size: 18px;
-	font-weight: 100;
+	font-weight: 400;
 	padding-top: 3px
 }
 
@@ -870,12 +870,12 @@ article[role="pge-title-content"].contact-header p a:hover {
 	font-size: 1.5em;
 	color: #000000;
 	line-height: 1.5;
-	font-weight: 100;
+	font-weight: 400;
 	padding: .5em 1.5em 0 0;
 }
 
 .work-details p strong {
-	font-weight: 100
+	font-weight: 400
 }
 
 .work-images {
@@ -896,7 +896,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .comments-pan h3,
 .commentys-form h4 {
 	color: #404040;
-	font-weight: 100;
+	font-weight: 400;
 	padding-bottom: 24px;
 	display: block
 }
@@ -917,7 +917,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .blog-details .enter-content p {
 	font-size: 16px;
 	line-height: 30px;
-	font-weight: 100;
+	font-weight: 400;
 	margin-bottom: 23px
 }
 

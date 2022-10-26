@@ -71,7 +71,7 @@ abbr[title] {
 
 b,
 strong {
-	font-weight: 100
+	font-weight: 400
 }
 
 dfn {
@@ -222,7 +222,7 @@ textarea {
 }
 
 optgroup {
-	font-weight: 100
+	font-weight: 400
 }
 
 table {
@@ -321,7 +321,7 @@ th {
 	display: inline-block;
 	font-family: 'Glyphicons Halflings';
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
@@ -1396,7 +1396,7 @@ html {
 
 body {
 	font-family: 'monospace', sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 11px;
 	line-height: 1.2;
 	color: #353535;
@@ -1541,7 +1541,7 @@ h5 .small,
 h5 small,
 h6 .small,
 h6 small {
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1;
 	color: #777
 }
@@ -1633,7 +1633,7 @@ p {
 .lead {
 	margin-bottom: 20px;
 	font-size: 16px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1.4
 }
 
@@ -1828,7 +1828,7 @@ dt {
 }
 
 dt {
-	font-weight: 100
+	font-weight: 400
 }
 
 dd {
@@ -1950,7 +1950,7 @@ kbd {
 kbd kbd {
 	padding: 0;
 	font-size: 100%;
-	font-weight: 100;
+	font-weight: 400;
 	-webkit-box-shadow: none;
 	box-shadow: none
 }
@@ -3095,7 +3095,7 @@ label {
 	display: inline-block;
 	max-width: 100%;
 	margin-bottom: 5px;
-	font-weight: 100
+	font-weight: 400
 }
 
 input[type=search] {
@@ -3251,7 +3251,7 @@ input[type=search] {
 	min-height: 20px;
 	padding-left: 20px;
 	margin-bottom: 0;
-	font-weight: 100;
+	font-weight: 400;
 	cursor: pointer
 }
 
@@ -3275,7 +3275,7 @@ input[type=search] {
 	display: inline-block;
 	padding-left: 20px;
 	margin-bottom: 0;
-	font-weight: 100;
+	font-weight: 400;
 	vertical-align: middle;
 	cursor: pointer
 }
@@ -3668,7 +3668,7 @@ textarea.input-lg {
 	padding: 6px 12px;
 	margin-bottom: 0;
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1.42857143;
 	text-align: center;
 	white-space: nowrap;
@@ -4117,7 +4117,7 @@ fieldset[disabled] .btn-danger:hover {
 }
 
 .btn-link {
-	font-weight: 100;
+	font-weight: 400;
 	color: #337ab7;
 	border-radius: 0
 }
@@ -4295,7 +4295,7 @@ tbody.collapse.in {
 	display: block;
 	padding: 3px 20px;
 	clear: both;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1.42857143;
 	color: #333;
 	white-space: nowrap
@@ -4705,7 +4705,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .input-group-addon {
 	padding: 6px 12px;
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1;
 	color: #555;
 	text-align: center;
@@ -5811,7 +5811,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 	display: inline;
 	padding: .2em .6em .3em;
 	font-size: 75%;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1;
 	color: #fff;
 	text-align: center;
@@ -5895,7 +5895,7 @@ a.label:hover {
 	min-width: 10px;
 	padding: 3px 7px;
 	font-size: 12px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1;
 	color: #fff;
 	text-align: center;
@@ -5961,7 +5961,7 @@ a.badge:hover {
 .jumbotron p {
 	margin-bottom: 15px;
 	font-size: 21px;
-	font-weight: 100
+	font-weight: 400
 }
 
 .jumbotron > hr {
@@ -6038,7 +6038,7 @@ a.thumbnail:hover {
 }
 
 .alert .alert-link {
-	font-weight: 100
+	font-weight: 400
 }
 
 .alert > p,
@@ -7002,7 +7002,7 @@ button.list-group-item-danger.active:hover {
 .close {
 	float: right;
 	font-size: 21px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1;
 	color: #000;
 	text-shadow: 0 1px 0 #fff;
@@ -7178,7 +7178,7 @@ button.close {
 	font-family: "poppins", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1.42857143;
 	text-align: left;
 	text-align: start;
@@ -7312,7 +7312,7 @@ button.close {
 	font-family: "poppins", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1.42857143;
 	text-align: left;
 	text-align: start;
