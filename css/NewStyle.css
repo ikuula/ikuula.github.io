@@ -129,6 +129,7 @@ h2 {
 
 .info h2 {
     font-size: 4em;
+    letter-spacing: -.5px;
     line-height: 1.4;
     padding: 0;
     margin: .5em 0;
@@ -182,6 +183,7 @@ h2 {
 .hoverimage {
     position: relative;
     display: inline;
+    letter-spacing: -.5px;
 }
 
 .hoverimage a {
@@ -548,7 +550,6 @@ h3 li {
     line-height: 1.2;
     text-decoration: none;
     display: inline-block;
-    font-weight: bold;
     margin: 4px 2px;
     cursor: auto;
     border-radius: 25px;
