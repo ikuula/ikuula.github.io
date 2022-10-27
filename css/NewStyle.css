@@ -469,6 +469,16 @@ h1 img {
     h1 {
         font-size: 4em;
     }
+    .work-details header h2, 
+    .info h2 {
+        font-size: 3em;
+    }
+    .client-underlined {
+        font-size: 1.2em;
+    }
+    .videobox{
+        padding: 1em;
+    }
 
     #foot {
         margin: 0 2em;
