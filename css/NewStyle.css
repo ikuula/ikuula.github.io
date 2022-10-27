@@ -138,7 +138,7 @@ h2 {
 
 .info h3 {
     padding: 1em 0;
-    line-height: 1.3;
+    line-height: 1.4;
     font-size: 2em;
 }
 
@@ -150,14 +150,14 @@ h2 {
 }
 
 .client-underlined {
-    border-bottom: 1px #000000 solid;
-    padding: 1.50em 0 1.50em 0;
-    font-size: 1em;
-    font-weight: bold;
+    /* border-bottom: 1px #000000 solid; */
+    padding: 0 3em 2em 0;
+    font-size: 2em;
+    font-weight: 400;
     letter-spacing: 0.05em;
     word-spacing: 1px;
     text-transform: uppercase;
-    width: 33.33333%;
+  /*   width: 33.33333%; */
     display: block;
     box-sizing: inherit;
     float: left;
@@ -238,7 +238,7 @@ h2 {
     position: absolute;
     top: -10%;
     left: 10%;
-    max-height: 75px;
+    max-height: 50px;
     z-index: -1;
 }
 
@@ -248,10 +248,12 @@ h2 {
     position: absolute;
     top: -10%;
     left: 25%;
-    max-height: 75px;
+    max-height: 50px;
     z-index: -1;
 }
-
+h3 .hoverimage  {
+    letter-spacing: -.25px;
+}
 /********************* Nav arrows *******************/
 
 .navy a {
