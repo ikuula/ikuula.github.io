@@ -152,7 +152,7 @@ h2 {
 .client-underlined {
     /* border-bottom: 1px #000000 solid; */
     padding: 0 3em 2em 0;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 0.05em;
     word-spacing: 1px;
@@ -474,7 +474,7 @@ h1 img {
         font-size: 3em;
     }
     .client-underlined {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .videobox{
         padding: 1em;
