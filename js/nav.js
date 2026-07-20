@@ -16,7 +16,7 @@ $(document).ready(function() {
 		cssmenu.prepend('<div id="menu-button"><span></span><span></span><span></span>' + settings.title + '</div>');
 		$(this).find("#menu-button").on('click', function(){
 		  $(this).toggleClass('menu-opened');
-		  var mainmenu = $(this).next('ul');
+		  var mainmenu = $(this).siblings('ul');
 		  if (mainmenu.hasClass('open')) { 
 			mainmenu.slideUp().removeClass('open');
 		  }

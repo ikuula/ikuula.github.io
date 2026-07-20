@@ -56,23 +56,25 @@
 
 }
 
+/* Base type scale — the whole site is sized in em relative to these.
+   (Previously supplied by the full Bootstrap build we slimmed down.) */
+html {
+    font-size: 10px;
+}
+
 body {
     /*		background: #dedede;*/
     background: white;
     padding: 2em 7em;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
+    font-size: 11px;
 }
 
 .effect-oscar {
     margin: 0;
     padding: 0;
 }
-
-.grid-figure {
-    margin: 0;
-}
-
 .container {
     padding: 0;
     width: 100%;
@@ -108,10 +110,6 @@ ul {
 section p {
 	padding-right: 1em;
 }*/
-
-article header h2 {
-    color: red;
-}
 
 h2 {
     color: #000000;
@@ -163,21 +161,6 @@ h2 {
     float: left;
 }
 
-.sociallinks {
-    font-size: 4em;
-    line-height: 1.4;
-    color: #000000;
-    padding: 1em 0;
-
-}
-
-.sociallinks a {
-    text-decoration-line: underline;
-    color: #000000;
-    font-weight: 400;
-}
-
-
 /********About hover images********/
 
 .hoverimage {
@@ -190,13 +173,10 @@ h2 {
     color: #000000;
     text-decoration-line: underline;
     font-weight: 400;
-}
-
-.hoverimage1,
-.hoverimage2,
-.hovershape1,
-.hovershape2,
-.hovershape3 {
+}.hoverimage1,
+    .hoverimage2,
+    .hovershape1,
+    .hovershape2 {
     display: none;
     visibility: hidden;
 }
@@ -383,17 +363,6 @@ h1 {
     color: #000000;
 }
 
-.profilepic {
-    padding: 0;
-    margin-left: -1em;
-}
-
-.isaac {
-    max-width: 60%;
-    padding: 0;
-    margin: 0;
-}
-
 .LP {
     margin: 6em 6em;
     padding: 0;
@@ -424,19 +393,27 @@ h1 {
 ::-moz-selection {
     background: #0033ff;
 }
-
-#motionreel {
-    margin: 0 -2em 0 -2em;
-    padding: 2em 1.75em 0 1.75em;
-    background-color: #f8f8f8;
-}
-
 section a img,
 h1 img {
     height: 40px
 }
 .videobox {
-    padding: 16em;
+    /* The box adheres to the normal layout — fills its column, respects the
+       page padding at every breakpoint. A uniform matte frames the video. */
+    padding: 1.5em;
+}
+
+/* Vimeo reels are 16:9 — derive height from width so the player scales
+   cleanly with no letterboxing and no fixed-height jumps between breakpoints.
+   Overrides the inline height="800" and the generic iframe height media queries. */
+.videobox iframe {
+    display: block;
+    width: 100%;
+    max-width: 1200px;        /* the video never exceeds 1200px wide */
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin-left: auto;        /* centre the capped video within the full-width box */
+    margin-right: auto;
 }
 
 
@@ -476,9 +453,6 @@ h1 img {
     .client-underlined {
         font-size: 1em;
     }
-    .videobox{
-        padding: 1em;
-    }
 
     #foot {
         margin: 0 2em;
@@ -501,20 +475,8 @@ h1 img {
         padding: 0;
     }
 
-    .profilepic {
-        padding: 4em 1em 0 1em;
-        margin: 0;
-    }
 
-    .nopad {
-        margin: 0;
-    }
-
-    .profilepic {
-        padding: 0 3em;
-    }
-
-    .LP {
+.LP {
         margin: 0 2em;
         padding: 0;
     }
@@ -552,10 +514,16 @@ h3 li {
     padding-top: .8em;
 }
 
+/* Material-icon (arrow_downward) inline next to heading text — centre it
+   vertically instead of sitting on the baseline. */
+.footicon {
+    vertical-align: middle;
+}
+
 /******* for Scope tags *******/
 .scopetag {
-    background-color: white;
-    border: 1px #000000 solid;
+    background-color: #F5F2F0;
+    border: 2px #000000 solid;
     color: #000000;
     padding: 4px 12px 4px 12px;
     text-align: center;
@@ -568,37 +536,99 @@ h3 li {
     font-size: 1.8em;
 }
 
-/******** for Material Icons *********/
-.material-icons footicon {
-    margin: 20px 0px 20px -4px;
-    padding: 1em 0em;
-    color: #000000;
-    font-size: 3em;
+/******* Dark mode *******/
+/* Background -> #121212, text -> #FFFFFF. Colours, images and everything
+   else keep their light-mode values. */
+html.dark-mode body {
+    background-color: #121212;
+    color: #ffffff;
 }
 
-.inline-icon {
-    margin: 0px 0px -20px 0px;
-
-
+/* Near-white surfaces (open nav menu overlay, scope-tag fill) -> dark */
+html.dark-mode header[role="header"] nav ul {
+    background-color: #121212;
+    border-bottom-color: #ffffff;   /* the divider line under the open menu */
+}
+html.dark-mode .scopetag {
+    background-color: rgba(255, 255, 255, 0.05);   /* #ffffff at 5% */
+    color: #ffffff;
+    border-color: #ffffff;       /* stroke -> white */
 }
 
-/******* for YouTube embedding *******/
-
-.embeded-video {
-    position: relative
+/* Text that hard-codes black -> white */
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode .hoverimage a,
+html.dark-mode .prevnext,
+html.dark-mode .prevnext a:hover,
+html.dark-mode .navy ul li:hover,
+html.dark-mode .work-details header h2,
+html.dark-mode .work-details header h3,
+html.dark-mode .work-details p,
+html.dark-mode header[role="header"] nav ul > li.nav-active a,
+html.dark-mode header[role="header"] nav ul > li:hover a,
+html.dark-mode footer[role="footer"] nav > ul,
+html.dark-mode footer[role="footer"] ul > li:first-child,
+html.dark-mode footer[role="footer"] nav > ul > li > a:first-child,
+html.dark-mode footer[role="footer"] nav > ul > li:hover a {
+    color: #ffffff;
 }
 
-.embeded-video .ratio-img {
-    display: block;
-    width: 100% !important;
-    height: auto !important;
+/* Icons -> white */
+html.dark-mode .material-icons {
+    color: #ffffff;
+}
+html.dark-mode header[role="header"] nav #menu-button span {
+    background: #ffffff;
 }
 
-.embeded-video IFRAME {
+/* Hover-frame stroke on the home grid -> white */
+html.dark-mode figure.effect-oscar:hover figcaption {
+    outline-color: #ffffff;
+}
+
+/******* Dark-mode toggle switch (left of the hamburger) *******/
+#theme-toggle {
+    float: right;
+    margin: 1px 20px 0 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    line-height: 0;
+    position: relative;
+    z-index: 70;
+}
+
+.theme-toggle-track {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.theme-toggle-knob {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 1em;
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #000000;
+    transition: left 0.2s ease;
 }
+
+/* In dark mode: white switch, knob slides right */
+html.dark-mode .theme-toggle-track {
+    border-color: #ffffff;
+}
+html.dark-mode .theme-toggle-knob {
+    left: 22px;
+    background: #ffffff;
+}
+
