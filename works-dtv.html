@@ -55,6 +55,15 @@
     <link href="css/NewStyle.css?v=22" rel="stylesheet" type="text/css">
 
     <!-- <script src="js/darkmode.js?v=3"></script> -->
+
+    <!-- reserve space for not-yet-loaded (lazy) videos so off-screen clips stay off-screen -->
+    <style>
+        video[data-src] {
+            aspect-ratio: 16 / 9;   /* placeholder height only while unloaded */
+            height: auto;
+            background: #f1f1f1;    /* light matte where the clip will appear */
+        }
+    </style>
 </head>
 
 
@@ -170,7 +179,7 @@
 
             <ul class="grid-lod effect-2" id="grid">
 
-                <video class="mb-25" playsinline="" loop="" muted="" autoplay="" src="images/work/DTV/DTV_Marquee.mp4"></video>
+                <video preload="none" class="mb-25" playsinline="" loop="" muted="" autoplay="" data-src="images/work/DTV/DTV_Marquee.mp4"></video>
 
             </ul>
 
@@ -303,4 +312,33 @@
 
     <script src="js/html5shiv.js" type="text/javascript"></script>
 
+
+    <!-- lazy-load videos: only fetch + play each clip as it scrolls into view -->
+    <script>
+    (function () {
+        var vids = document.querySelectorAll('video[data-src]');
+        if (!('IntersectionObserver' in window)) {
+            // Old browser: just load everything as before
+            vids.forEach(function (v) { v.src = v.dataset.src; v.removeAttribute('data-src'); });
+            return;
+        }
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                var v = e.target;
+                if (e.isIntersecting) {
+                    if (v.dataset.src) {
+                        v.src = v.dataset.src;
+                        v.removeAttribute('data-src');
+                        v.load();
+                    }
+                    var p = v.play();
+                    if (p && p.catch) { p.catch(function () {}); }
+                } else if (!v.dataset.src) {
+                    v.pause(); // stop clips scrolled well out of view
+                }
+            });
+        }, { rootMargin: '300px 0px' }); // start ~300px before it enters the viewport
+        vids.forEach(function (v) { io.observe(v); });
+    })();
+    </script>
 </body></html>
