@@ -632,3 +632,6 @@ html.dark-mode .theme-toggle-knob {
     background: #ffffff;
 }
 
+
+/* logo video sized like the logo image */
+section a video, h1 video { height: 40px; }
