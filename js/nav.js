@@ -17,15 +17,9 @@ $(document).ready(function() {
 		$(this).find("#menu-button").on('click', function(){
 		  $(this).toggleClass('menu-opened');
 		  var mainmenu = $(this).siblings('ul');
-		  if (mainmenu.hasClass('open')) { 
-			mainmenu.slideUp().removeClass('open');
-		  }
-		  else {
-			mainmenu.slideDown().addClass('open');
-			if (settings.format === "dropdown") {
-			  mainmenu.find('ul').slideDown();
-			}
-		  }
+		  var opening = !mainmenu.hasClass('open');
+		  mainmenu.toggleClass('open');
+		  mainmenu.css('maxHeight', opening ? mainmenu[0].scrollHeight + 'px' : '0px');
 		});
 		
 		cssmenu.find('li ul').parent().addClass('has-sub');

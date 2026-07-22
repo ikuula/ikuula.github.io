@@ -635,3 +635,25 @@ html.dark-mode .theme-toggle-knob {
 
 /* logo video sized like the logo image */
 section a video, h1 video { height: 40px; width: auto; aspect-ratio: 690 / 150; }
+/* --- smooth nav panel open/close (replaces jQuery slideDown height animation) --- */
+/* base state governs CLOSING: 0.5s, quicker, no overshoot */
+header[role="header"] nav ul {
+    display: block;
+    padding-top: 1em;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(-72px);
+    transition: max-height .5s cubic-bezier(.4, 0, 1, 1),
+                opacity .4s ease,
+                transform .5s cubic-bezier(.4, 0, 1, 1);
+}
+/* .open state governs OPENING: 0.7s with slight overshoot */
+header[role="header"] nav ul.open {
+    max-height: 100vh;
+    opacity: 1;
+    transform: translateY(0);
+    transition: max-height .7s cubic-bezier(.16, 1, .3, 1),
+                opacity .5s ease,
+                transform .7s cubic-bezier(.34, 1.4, .64, 1);
+}
